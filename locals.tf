@@ -16,13 +16,14 @@ locals {
   }
   vpc_cidr = "${lookup(local.vpc_cidr_map, local.env)}"
 
+# https://cidr.xyz/
   vpc_private_subnets_map = {
-    default = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
+    default = ["10.0.0.0/22", "10.0.4.0/22", "10.0.8.0/22"]
   }
   vpc_private_subnets= "${lookup(local.vpc_private_subnets_map, local.env)}"
 
    vpc_public_subnets_map = {
-    default = ["10.0.7.0/24", "10.0.8.0/24", "10.0.9.0/24"]
+    default = ["10.0.12.0/22", "10.0.16.0/22", "10.0.20.0/22"]
   }
   vpc_public_subnets= "${lookup(local.vpc_public_subnets_map, local.env)}"
 
