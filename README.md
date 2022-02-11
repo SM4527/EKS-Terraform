@@ -14,6 +14,12 @@ EKS-Terraform [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?s
 
 Deploy an EKS K8 Cluster with Self managed Worker nodes on AWS using Terraform.
 
+<p align="center">
+
+![image](https://user-images.githubusercontent.com/78129381/153542906-59e29ff1-f2b0-4278-93f0-1a785a991904.png)
+
+</p>
+
 ## Getting Started
 
 ### Dependencies
