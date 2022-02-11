@@ -8,7 +8,7 @@
 
 # Project Title
 
-EKS-Terraform
+EKS-Terraform [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=EKS%20-%20Terraform&url=https://github.com/SM4527/EKS-Terraform)
 
 ## Description
 
