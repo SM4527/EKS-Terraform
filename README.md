@@ -64,7 +64,7 @@ docker-compose run --rm terraform workspace select default
 ./run-docker-compose.sh terraform apply
 ```
 
-* Deploy aws_auth configmap for the TF workspace with updated User, Role & Group mappings.
+* (optional step) Deploy aws_auth configmap for the TF workspace with updated User, Role & Group mappings.
 
 ```
 ./run-docker-compose.sh kubectl apply -f ./aws_auth_configmap_default.yaml
@@ -143,8 +143,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-* [cloudposse](https://github.com/cloudposse/terraform-aws-s3-bucket)
 * [abdennour](https://github.com/abdennour/dockerfiles)
+* [gavinbunney](https://github.com/gavinbunney/terraform-provider-kubectl)
+* [cloudposse](https://github.com/cloudposse/terraform-aws-s3-bucket)
 
 ## Repo rosters
 
