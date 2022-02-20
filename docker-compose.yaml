@@ -35,5 +35,5 @@ services:
 volumes:
   aws-credentials:
     name: aws-credentials
-    external: true
+  #  external: true
   
