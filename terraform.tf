@@ -30,7 +30,7 @@ terraform {
       version     = "~>3.1.0"
     }
 
-     kubectl = {
+    kubectl = {
       source  = "gavinbunney/kubectl"
       version = ">= 1.7.0"
     }
